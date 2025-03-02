@@ -1,0 +1,15 @@
+project/
+├── data/
+│   └── synthetic_data.py   # Code to generate or load data.
+├── methods/
+│   ├── lasso_cd.py         # LASSO via coordinate descent.
+│   ├── lasso_ista.py       # LASSO via ISTA.
+│   ├── lasso_fista.py      # LASSO via FISTA.
+│   ├── elastic_net.py      # Elastic Net solver.
+│   ├── square_root_lasso.py  # Square-root LASSO.
+│   ├── logistic_lasso.py   # LASSO for logistic regression.
+│   └── debiased_lasso.py   # De-biased LASSO for inference.
+├── experiments/
+│   ├── run_experiments.py  # Main script to run comparisons.
+│   └── plots.py            # Code to create plots and visualizations.
+└── README.md               # Project documentation.
